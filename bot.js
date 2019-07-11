@@ -1,3 +1,6 @@
+var Discord = require('discord.js');
+var fs = require('fs');
+var client = new Discord.Client();
 
 client.on("ready", () => {
     client.user.setPresence({
@@ -18,4 +21,3 @@ client.on("ready", () => {
       }
         });
     });
-    
